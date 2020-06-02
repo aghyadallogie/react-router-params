@@ -9,7 +9,7 @@
 
   - Setup your state with an empty posts array
   - Display a list of posts
-    - Use the typicode posts API
+    - Use the typicode posts API: [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)
     - load the data in componentDidMount and store it in state
 
   - render all posts with just the title (not description)
