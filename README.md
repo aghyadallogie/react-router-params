@@ -9,22 +9,22 @@
 
   - Setup your state with an empty posts array
   - Display a list of posts
-    - Use the typicode posts API: [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)
+    - use the typicode posts API: [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)
     - load the data in componentDidMount and store it in state
 
-  - render all posts with just the title (not description)
+  - Render all posts with just the title (not description)
     - add a router link to get to a single post
     - the link should point to the PostDetail page component
     - attach the ID of the post to your link
 
 ## PostDetail page
 
-  - receive the post ID from params
-  - fetch the single post from API here in componentDidMount
+  - Receive the post ID from params
+  - Fetch the single post from API here in componentDidMount
     - do so by appending the post ID to the URL
     - store the received single post in state
-  - render method: show here all post details including the description field
-  - add a router link to get back to the Post list
+  - Render method: show here all post details including the description field
+  - Add a router link to get back to the Post list
 
 That's it! 
 
